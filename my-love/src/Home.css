@@ -1,0 +1,59 @@
+* Home.css */
+.home-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #f0f0f0; /* Example background color */
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #007bff; /* Example button color */
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+.featured-products,
+.about-us {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.product-card {
+  width: 30%; /* Adjust width as needed */
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .product-card {
+    width: 100%; /* Stack cards on smaller screens */
+  }
+}
