@@ -17,7 +17,7 @@ const About = () => {
         </p>
 
         {/* Mission and Vision */}
-        <h2 className="section-title">Our Mission and Vision are</h2>
+        <h2 className="section-title">Our Mission and Vision are The following</h2>
         <p>
           <strong>Mission:</strong> To design and produce sustainable, energy-efficient vehicles that meet the unique needs of Ethiopia and beyond, using locally sourced materials and talent.
         </p>
