@@ -15,13 +15,17 @@ function App() {
       <Header />
       <main> {/* Wrap main content in <main> tag */}
         <Routes>
+        <Switch>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           {/* Add other routes as needed */}
           <Route path="*" element={<h1>404 Not Found</h1>} /> {/* 404 route */}
+          </Switch>
+          
 
+          
         </Routes>
       </main>
       <Footer />
