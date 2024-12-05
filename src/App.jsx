@@ -21,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           {/* Add other routes as needed */}
+          
           <Route path="*" element={<h1>404 Not Found</h1>} /> {/* 404 route */}
         
 
